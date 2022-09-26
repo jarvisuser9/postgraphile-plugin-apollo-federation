@@ -1,5 +1,5 @@
 import { printSchema } from "@apollo/federation";
-import { FilterTypes, TransformRootFields, wrapSchema } from "graphql-tools";
+import { FilterTypes, TransformRootFields, wrapSchema } from "@graphql-tools/wrap";
 import { GraphQLSchema } from "graphql";
 
 /*
