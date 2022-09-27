@@ -1,7 +1,7 @@
 # postgraphile-plugin-apollo-federation
 
-[![Travis CI](https://img.shields.io/travis/com/jarvisuser9/postgraphile-plugin-apollo-federation/main)](https://github.com/jarvisuser9/postgraphile-plugin-apollo-federation)
-[![npm version](https://img.shields.io/npm/v/postgraphile-plugin-apollo-federation)](https://www.npmjs.com/package/postgraphile-plugin-apollo-federation)
+[![CI/CD](https://github.com/brooklyn-labs/postgraphile-plugin-apollo-federation/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/brooklyn-labs/postgraphile-plugin-apollo-federation)
+[![npm version](https://img.shields.io/npm/v/@brooklyn-labs/postgraphile-plugin-apollo-federation)](https://www.npmjs.com/package/@brookly-labs/postgraphile-plugin-apollo-federation)
 
 Apollo federation support for PostGraphile (or any Graphile Engine schema).
 
