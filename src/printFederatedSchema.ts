@@ -1,4 +1,4 @@
-import { printSchema } from "@apollo/federation";
+import { printSubgraphSchema } from "@apollo/subgraph";
 import { FilterTypes, TransformRootFields, wrapSchema } from "@graphql-tools/wrap";
 import { GraphQLSchema } from "graphql";
 
@@ -56,7 +56,7 @@ export default function printFederatedSchema(schema: GraphQLSchema): string {
     });
 
     // Print the schema, including the federation directives.
-    lastPrint = printSchema(schemaSansFederationFields);
+    lastPrint = printSubgraphSchema(schemaSansFederationFields);
   }
   return lastPrint;
 }
