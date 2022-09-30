@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/brooklyn-labs/postgraphile-plugin-apollo-federation#readme",
   "dependencies": {
-    "@apollo/federation": "^0.33.0",
+    "@apollo/federation": "^0.33.9",
     "@graphql-tools/wrap": "^9.2.1",
     "@types/graphql": "^14.5.0",
     "graphile-utils": "^4.12.3"
