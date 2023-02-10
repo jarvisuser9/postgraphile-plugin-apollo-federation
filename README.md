@@ -1,7 +1,8 @@
 # postgraphile-plugin-apollo-federation
 
-[![CI](https://github.com/brooklyn-labs/postgraphile-plugin-apollo-federation/actions/workflows/ci.yml/badge.svg)](https://github.com/brooklyn-labs/postgraphile-plugin-apollo-federation)
-[![npm version](https://img.shields.io/npm/v/@brooklyn-labs/postgraphile-plugin-apollo-federation)](https://www.npmjs.com/package/@brooklyn-labs/postgraphile-plugin-apollo-federation)
+[![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/brooklyn-labs/postgraphile-plugin-apollo-federation/ci.yml?branch=main&label=Build)](https://github.com/brooklyn-labs/postgraphile-plugin-apollo-federation/actions/workflows/ci.yml)
+[![npm (scoped)](https://img.shields.io/npm/v/@brooklyn-labs/postgraphile-plugin-apollo-federation?label=NPM)](https://www.npmjs.com/package/@brooklyn-labs/postgraphile-plugin-apollo-federation)
+[![License](https://img.shields.io/github/license/brooklyn-labs/postgraphile-plugin-apollo-federation?label=License)](https://github.com/brooklyn-labs/postgraphile-plugin-apollo-federation/blob/main/LICENSE.md)
 
 Apollo federation support for PostGraphile (or any Graphile Engine schema).
 
