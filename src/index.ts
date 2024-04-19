@@ -65,7 +65,7 @@ const SchemaExtensionPlugin = makeExtendSchemaPlugin(
      */
     function isPromise<T>(value: PromiseOrValue<T>): value is Promise<T> {
       return Boolean(
-        value && "then" in value && typeof value.then === "function",
+        value && typeof value === "object" && "then" in value && typeof value.then === "function",
       );
     }
 
