@@ -5,7 +5,6 @@
 import {
   ArgumentNode,
   DirectiveNode,
-  Kind,
   NameNode,
   ObjectTypeDefinitionNode,
   StringValueNode,
@@ -18,7 +17,7 @@ import {
  */
 export function Name(value: string): NameNode {
   return {
-    kind: "Name" as Kind.NAME,
+    kind: "Name",
     value,
   };
 }
@@ -31,7 +30,7 @@ export function Name(value: string): NameNode {
  */
 export function StringValue(value: string, block = false): StringValueNode {
   return {
-    kind: "StringValue" as Kind.STRING,
+    kind: "StringValue",
     value,
     block: block,
   };
@@ -47,7 +46,7 @@ export function ObjectTypeDefinition(spec: {
   description?: string | null;
 }): ObjectTypeDefinitionNode {
   return {
-    kind: "ObjectTypeDefinition" as Kind.OBJECT_TYPE_DEFINITION,
+    kind: "ObjectTypeDefinition",
     name: Name(spec.name),
     description: spec.description
       ? StringValue(spec.description, true)
@@ -67,7 +66,7 @@ export function Directive(
   args: { [argName: string]: unknown } = {},
 ): DirectiveNode {
   return {
-    kind: "Directive" as Kind.DIRECTIVE,
+    kind: "Directive",
     name: Name(name),
     arguments: Object.entries(args).map(
       ([argName, value]) =>

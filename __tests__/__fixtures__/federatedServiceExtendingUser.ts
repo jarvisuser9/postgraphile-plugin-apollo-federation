@@ -1,7 +1,9 @@
 import { gql } from "graphile-utils";
 
 import { ApolloServer } from "apollo-server";
-import { buildSubgraphSchema } from "@apollo/federation";
+import { buildSubgraphSchema } from "@apollo/subgraph";
+
+
 
 const typeDefs = gql`
   type Query {
